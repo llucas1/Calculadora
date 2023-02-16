@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="app">
+      <div id="resultado">
+        <div>
+          <span>=</span>
+        </div>
+        <div id="resultadoOperacao">
+          <span id="expressao"> </span>
+          <br />
+          <div>
+            <strong><span id="currentValue">0</span></strong>
+          </div>
+        </div>
+      </div>
+
+      <div id="botoes">
+        <div class="row">
+          <button id="ce">CE</button>
+          <button>C</button>
+          <button>%</button>
+          <button class="operadores">/</button>
+        </div>
+
+        <div class="row">
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="operadores">X</button>
+        </div>
+        <div class="row">
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="operadores">-</button>
+        </div>
+        <div class="row">
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="operadores">+</button>
+        </div>
+        <div class="row">
+          <button>+/-</button>
+          <button class="number">0</button>
+          <button class="number">,</button>
+          <button class="operadores">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
